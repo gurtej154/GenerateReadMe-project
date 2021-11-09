@@ -46,7 +46,7 @@ N/A
 
 ## Tests
 
-![View walk-through](https://drive.google.com/file/d/1L5k8N-2Cif_HyAoERmg2Yt4xlKO-nlQi/view?usp=sharing)
+[View walk-through](https://drive.google.com/file/d/1L5k8N-2Cif_HyAoERmg2Yt4xlKO-nlQi/view?usp=sharing)
 
 ---
 
