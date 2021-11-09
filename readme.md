@@ -1,64 +1,67 @@
 # README File Generator
 
-  ![License:MIT](https://img.shields.io/badge/MIT-License-yellowgreen)
+![License:MIT](https://img.shields.io/badge/MIT-License-yellowgreen)
 
-  ---
- 
-  ## Table of Contents
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-  - [License](#license)
-  - [credits](#credits)
+---
 
-  ---
+## Table of Contents
 
-  ## Description 
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [License](#license)
+- [credits](#credits)
 
-  Generates markdowmn files for repositories to allow secondary user to observe the project details and deliverables.
+---
 
-  ---
+## Description
 
-  ## Installation
+Generates markdown files for github repositories to explain the project brief and deliverables.
 
-  Node,.js and Inquirer.js required 
+![Walk-through](/Walkthrough.gif)
 
-  ---
+---
 
-  ## Usage
+## Installation
 
-  To initiate the README File Generator, enter node index.js into terminal command to create README Files.
+Install node.js and inquirer.js
 
-  ---
+---
 
-  ## Contributing
+## Usage
 
-  N/A
+Initiate the command line in terminal and run node index.js to generate README File.
+![Terminal](/Terminal.png)
 
-  ---
+---
 
-  ## Tests
+## Contributing
 
-  N/A
+N/A
 
-  ---
+---
 
-  ## Questions
+## Tests
 
-  Any questions regarding the project and the repository itself, please reach out via gurtej154@gmail.com. You can also checkout of my [Github Profile](https://github.com/gurtej154). 
+N/A
 
-  ---
+---
+
+## Questions
+
+Any questions regarding the project and the repository itself, please reach out via gurtej154@gmail.com. You can also checkout of my [Github Profile](https://github.com/gurtej154).
+
+---
 
 ## License
-  This repository is licensed under [MIT License](LICENSE)
-   
 
-  ---
+This repository is licensed under [MIT License](LICENSE)
 
-  ## Credits
-  
-  N/A
+---
 
+## Credits
+
+N/A
