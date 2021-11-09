@@ -1,39 +1,64 @@
 # README File Generator
 
-  
-  ## Table of Contents
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-  - [License](#license)
-  - [credits](#credits)
+![License:MIT](https://img.shields.io/badge/MIT-License-yellowgreen)
 
-  ## Description 
-  Generates markdown files for github repositories, explaining key project briefs and deliverables
+---
 
-  ## Installation
-  installation of node.js and inquirer
+## Table of Contents
 
-  ## Usage
-  type node index,js into command line to initiate the generator and adhere to the following questions to successfully generate a README File for your repository.
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [License](#license)
+- [credits](#credits)
 
-  ## Contributing
-  Contact via email for details on contributing to the project.
+---
 
-  ## Tests
-  N/A
+## Description
 
-  ## Questions
-  Any questions regarding the project and the repository itself, please reach out via gurtej154@gmail.com. You can also checkout of my [Github Profile](https://github.com/gurtej154). 
+Generates markdown files for repositories to explain project briefs in deliverables in a README Format.
 
-  ## License
-  ![License:MIT](https://img.shields.io/badge/MIT-License-yellowgreen)
-  ## License
-  [MIT License](LICENSE)
+---
 
-  ## Credits
-  N/A
+## Installation
 
+Install node.js and inquirer.js
+
+---
+
+## Usage
+
+To initiate the readme file generator, enter node index.js into terminal command line to answer the questions and successfully generate a readme file.
+
+---
+
+## Contributing
+
+N/A
+
+---
+
+## Tests
+
+N/A
+
+---
+
+## Questions
+
+Any questions regarding the project and the repository itself, please reach out via gurtej154@gmail.com. You can also checkout of my [Github Profile](https://github.com/gurtej154).
+
+---
+
+## License
+
+This repository is licensed under [MIT License](LICENSE)
+
+---
+
+## Credits
+
+N/A

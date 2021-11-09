@@ -14,7 +14,7 @@ function renderLicenseLink(license) {
   if (license === "None") {
     return "";
   }
-  return "[MIT License](#license)(https://opensource.org/licenses/MIT$)";
+  return `- [License](#license)`;
 }
 
 // TODO: Create a function that returns the license section of README
@@ -24,7 +24,7 @@ function renderLicenseSection(license) {
     return "";
   }
   return `## License
-  [${license} License](LICENSE)`;
+  This repository is licensed under [${license} License](LICENSE)`;
 }
 
 // TODO: Create a function to generate markdown for README
@@ -36,7 +36,10 @@ function generateMarkdown(data) {
 
   return `# ${data.title}
 
-  
+  ${LicenseBadge}
+
+  ---
+ 
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
@@ -44,30 +47,45 @@ function generateMarkdown(data) {
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
-  - [License](#license)
+  ${LicenseLink}
   - [credits](#credits)
+
+  ---
 
   ## Description 
   ${data.description}
 
+  ---
+
   ## Installation
   ${data.installation}
+
+  ---
 
   ## Usage
   ${data.usage}
 
+  ---
+
   ## Contributing
   ${data.contributing}
+
+  ---
 
   ## Tests
   ${data.tests}
 
+  ---
+
   ## Questions
   Any questions regarding the project and the repository itself, please reach out via ${data.email}. You can also checkout of my [Github Profile](https://github.com/${data.githubUserName}). 
 
-  ## License
-  ${LicenseBadge}
-  ${LicenseSection}
+  ---
+
+${LicenseSection}
+   
+
+  ---
 
   ## Credits
   ${data.credits}
