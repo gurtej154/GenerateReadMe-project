@@ -53,31 +53,37 @@ function generateMarkdown(data) {
   ---
 
   ## Description 
+
   ${data.description}
 
   ---
 
   ## Installation
+
   ${data.installation}
 
   ---
 
   ## Usage
+
   ${data.usage}
 
   ---
 
   ## Contributing
+
   ${data.contributing}
 
   ---
 
   ## Tests
+
   ${data.tests}
 
   ---
 
   ## Questions
+
   Any questions regarding the project and the repository itself, please reach out via ${data.email}. You can also checkout of my [Github Profile](https://github.com/${data.githubUserName}). 
 
   ---
@@ -88,6 +94,7 @@ ${LicenseSection}
   ---
 
   ## Credits
+  
   ${data.credits}
 
 `;
